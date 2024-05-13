@@ -12,11 +12,14 @@
        <context:annotation-config />
        <!--  declare student class in this bean so that container will manage this--> 
        
-        <bean class="com.springCore.autowiringXml.annotation.Address" name="address">
-          <property name="street" value="Mohanlalganj"/>
+        <bean class="com.springCore.autowiringXml.annotation.Address" name="address1">
+          <property name="street" value="Mohanlalganj 1"/>
           <property name="city" value="Lko"/>
         </bean>
-        
+        <bean class="com.springCore.autowiringXml.annotation.Address" name="address2">
+          <property name="street" value="Mohanlalganj 2"/>
+          <property name="city" value="Lko"/>
+        </bean>
         <bean class="com.springCore.autowiringXml.annotation.emp" name="employee" />
           
        
