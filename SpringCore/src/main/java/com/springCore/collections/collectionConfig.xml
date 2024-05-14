@@ -12,7 +12,7 @@
        <!--  declare student class in this bean so that container will manage this--> 
        <bean name="emp1" class="com.springCore.collections.employee">
          
-         <property name="name" value="Vinay"></property>
+         <property name="name" value="Vinay"/>
          <property name="phoneNumber">
            
              <list>
